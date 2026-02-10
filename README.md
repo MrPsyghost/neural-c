@@ -1,6 +1,6 @@
 # neural-c
 
-A neural network library in pure C.
+A Neural Network library in pure C.
 
 ## Install
 
@@ -13,4 +13,4 @@ copy lib/libneural.a C:\mingw64\lib
 
 ## Build
 
-gcc <FILE NAME>.c -lneural -lm <File Name>
+gcc <FILE NAME>.c -lneural -lm <File Name>.exe
