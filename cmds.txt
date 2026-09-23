@@ -1,6 +1,0 @@
-// Build the project
-gcc -c src/neural.c -O2 -o neural.o
-ar rcs libneural.a neural.o
-
-// Compile code with the compiled library
-gcc <FILE NAME>.c -L. -lneural -lm -o <EXECUTABLE NAME>.exe
